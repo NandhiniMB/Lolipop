@@ -9,6 +9,7 @@ class App extends Component {
         <header className="App-header">
      
       
+         
          <div className="looking-for-a-lollip">
            Looking for lollipop Alternative
          </div>
@@ -24,6 +25,9 @@ class App extends Component {
          <div className="outline">
          <p className="cta-text1">Secondary CTA</p>
          </div>
+         <div className="image5">
+         <img src={require('./png/globe.png')} />
+         </div>
         
          <div className="image1">
          <img src={require('./png/BG.png')} />
@@ -33,9 +37,9 @@ class App extends Component {
          </div>
          
          <div className="compare-pricing-toda">
-         <p>Compare pricing today!</p>   
+         <p>Compare pricing today!</p> 
+         </div>   
 <p className="lorem-ipsum-is-simpl ">Lorem Ipsum is simply dummy text of the printing and typesetting.</p> 
-</div>  
 <div className="serving25"><p>25 Serving</p>
 <div className="serving50"><p>50 Serving</p>   
 <div className="serving100"><p>100 Serving</p>    
@@ -75,8 +79,11 @@ class App extends Component {
 
 
 
-<div className="quote">
 <p className="heres-what-our-cust">Here’s what our customers have to say </p>
+<div className="image4">
+<img src={require('./png/person.png')} />
+</div>
+<div className="quote">
 <p className="lorem-ipsum-is-simple1 ">Lorem Ipsum is simply dummy text of the <br/>printing and typesetting industry. 
 Lorem Ipsum <br/>has been the industry's standard dummy text<br/> ever since the 1500s.</p>
 <p className="raja-ram">Raja Ram</p>
