@@ -1,0 +1,73 @@
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="App-header"><br></br>
+        <br></br>
+        <br></br>
+
+        <div>
+         <div className="looking-for-a-lollip">
+           Looking for lolipop Alternative
+         </div>
+        
+         <div className="body">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+         </div>
+
+         <div className="primary">
+         <p className="cta-text">Primary CTA</p>
+         </div>
+         <div className="outline">
+         <p className="cta-text1">Secondary CTA</p>
+         </div>
+
+      <img src="Group 4.png" className="FirstImage" alt="FirstImage"/>
+      <img src="BG.png" className="bg" alt="SecondImage"/>
+      <img src="Group 6.png" className="rectangle" alt="ThirdImage"/>
+      
+<p className="compare-pricing-toda ">Compare pricing today!</p>   
+<p className="lorem-ipsum-is-simpl ">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>   
+<div className="rectangle1">
+<div className="serving25">25 Serving </div>   
+<p className="serving50">50 Serving </p>   
+<p className="serving100">100 Serving </p>   
+<p className="serving200">200 Serving </p>   
+</div>
+
+<div className="offer">
+<p className="annual">Annual</p>
+<p className="off">50%</p>
+<div className="togglerectangle"></div>
+<div className="oval"></div>
+<p className="monthly">Monthly</p>
+</div>
+
+<p className="heres-what-our-cust">Here’s what our customers have to say </p>
+<p className="lorem-ipsum-is-simpl ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+<p className="raja-ram">Raja Ram</p>
+<p className="tip-world">Tip World</p>
+
+<p className="loved-by-users-reco-copy-2">Loved by users, recommended by experts</p>
+<p className="lorem-ipsum-is-simpl ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+<div className="primary">
+         <p className="cta-text">Primary CTA</p>
+</div>
+<img src="Group 4.png" className="rectangle" alt="ThirdImage"/>
+</div>
+</header>
+<br>
+</br><br></br><br></br><br></br>
+</div>
+    );
+  }
+}
+
+export default App;

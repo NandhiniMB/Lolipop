@@ -1,22 +1,306 @@
-.App {
+
+.card {
+  box-shadow: 0 50px 50px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline-flex;
+  
+
+  width: 25%;
+  height:150px;
+  margin-left: 10px;
+  
+}
+.cards{
+  margin-left: 500px;
+}
+
+.card:hover {
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+
+}
+
+.looking-for-a-lollip {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  margin-top:160px;
+  margin-left: 250px;
+  width: 489px;
+  text-align: left;
+}
+
+.body {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 250px;
+  line-height: 22px;
+  width: 489px;
+  text-align: left;
+}
+
+.primary {
+  background-color: #0099FF;
+  border-radius: 3px;
+  width: 220px;
+  height: 48px;
+  margin-left: 250px;
+  float: left;
+  margin-top: 20px;
+   
+  
+}
+.primary1 {
+  background-color: #0099FF;
+  border-radius: 3px;
+  width: 220px;
+  height: 48px;
+  margin-left: 300px;
+  float: left;
+  margin-top: 20px;
+   
+  
+}
+.cta-text {
+  color: #FFFFFF;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 211px;
   text-align: center;
 }
+.cta-text1 {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 20px;
+  font-weight:bold;
+  line-height: 19px;
+  width: 211px;
+  text-align: center;
+}
+.outline {
+  border: 2px solid #0099FF;
+  border-radius: 3px;
+  width: 220px;
+  height: 45px;
+  margin-left: 25px;
+  margin-top: 20px;
+  float: left;
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+
+}
+.lorem-ipsum-is-simpl {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 400;
+  
+  text-align: left;
+  margin-left: 600px;
+}
+  .lorem-ipsum-is-simple1 {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 400;
+  
+  text-align: left;
+  margin-left: 800px;
+  
+  
+}
+.FirstImage
+{
+width:281px;
+height: 331px;
+float:left;
+margin-left: 300px;
+}
+.image1{
+  margin-top: 200px;
+  margin-left: 300px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.heading{
+  display: inline-block;
+}
+
+.bg {
+  background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
+  width: 1267px;
+  height: 409px;
+}
+.rectangle {
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.05);
+  width: 698px;
+  height: 513px;
+}
+.compare-pricing-toda {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 24px;
+  font-weight: 700;
+  
+  text-align: center;
+  margin-top: 100px;
+}
+.rectangle1 {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+  width: 50px;
+  height: 46px;
+  margin-left:770px
+}
+.serving25 {
+  color: #4A4A4A;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 700; 
+  text-align: left;
+  margin-left: 600px;
+  display: inline-flex;
+
+  
+}
+.serving50 {
+  color: #4A4A4A;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+  margin-left: 20px;
+
+    
+}
+.serving100 {
+  color: #4A4A4A;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+  margin-left: 20px;
+  
+}
+.serving200 {
+  color: #4A4A4A;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 20px;
+
+  
+}
+.offer
+{
+  margin-left:1000px;
+}
+.annual {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 72px;
+  margin-left: 700px;
+  display: inline-flex;
+  
+}
+.offer {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 60px;
+  
+}
+.togglerectangle {
+  background-color: #D8D8D8;
+  border-radius: 7px;
+  opacity: 0.6388346354166666;
+  width: 44px;
+  height: 14px;
+  margin-left:-30px;
+  margin-top:100px;
+}
+.oval {
+  background-color: #0099FF;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  margin-left:30px;
+  display: inline;
+  
+}
+.monthly {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 83px;
+  
+display: inline-flex;
+}
+.raja-ram {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-left: 800px;
+  
+}
+.tip-world {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 20px;
+  font-weight: 400;
+  
+  margin-left:800px;
+}
+
+
+.heres-what-our-cust {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  margin-left: 800px;
+  margin-top: 100px;
+}
+.lorem-ipsum-is-simple {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 400;
+  
+  text-align: left;
+  margin-left: 300px;
+  
+  
+}
+.loved-by-users-reco-copy-2 {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  margin-left:300px;
+  margin-top:100px;
 }
 
 .App-link {
