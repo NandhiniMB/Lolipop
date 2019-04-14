@@ -26,7 +26,10 @@ class App extends Component {
          </div>
         
          <div className="image1">
-         <img src={require('./img2.png')} />
+         <img src={require('./png/BG.png')} />
+         </div>
+         <div className="image2">
+         <img src={require('./png/Group 6.png')} />
          </div>
          
          <div className="compare-pricing-toda">
@@ -72,20 +75,26 @@ class App extends Component {
 
 
 
-
+<div className="quote">
 <p className="heres-what-our-cust">Here’s what our customers have to say </p>
 <p className="lorem-ipsum-is-simple1 ">Lorem Ipsum is simply dummy text of the <br/>printing and typesetting industry. 
 Lorem Ipsum <br/>has been the industry's standard dummy text<br/> ever since the 1500s.</p>
 <p className="raja-ram">Raja Ram</p>
 <p className="tip-world">Tip World</p>
+</div>
 
 
+<div className="footer">
 <p className="loved-by-users-reco-copy-2">Loved by users,<br/> recommended by experts</p>
 <p className="lorem-ipsum-is-simple ">Lorem Ipsum is simply dummy text of the<br/> printing and typesetting industry. 
 Lorem Ipsum <br/>has been the industry's standard dummy text <br/>ever since the 1500s.</p>
 <div className="primary1">
          <p className="cta-text">Primary CTA</p>
 </div>
+</div>
+<div className="image3">
+         <img src={require('./png/Group 4.png')} />
+         </div>
 </header>
 </div>
 /*<img src="Group 4.png" className="rectangle" alt="ThirdImage"/>

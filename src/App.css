@@ -104,7 +104,7 @@
   font-weight: 400;
   
   text-align: left;
-  margin-left: 600px;
+  margin-left: 850px;
 }
   .lorem-ipsum-is-simple1 {
   color: #8B8E91;
@@ -127,6 +127,16 @@ margin-left: 300px;
 .image1{
   margin-top: 200px;
   margin-left: 300px;
+
+}
+.image2{
+  margin-top: -300px;
+  margin-left: 600px;
+
+}
+.image3{
+  margin-top: -200px;
+  margin-left: 1200px;
 
 }
 
@@ -168,7 +178,7 @@ margin-left: 300px;
   font-size: 14px;
   font-weight: 700; 
   text-align: left;
-  margin-left: 600px;
+  margin-left: 850px;
   display: inline-flex;
 
   
@@ -212,7 +222,7 @@ margin-left: 300px;
   font-weight: 700;
   line-height: 19px;
   width: 72px;
-  margin-left: 700px;
+  margin-left: 900px;
   display: inline-flex;
   
 }
@@ -250,8 +260,8 @@ margin-left: 300px;
   font-weight: 700;
   line-height: 19px;
   width: 83px;
-  
-display: inline-flex;
+  margin-left: 1000px;
+  margin-top:-33px;
 }
 .raja-ram {
   color: #31373D;
@@ -270,7 +280,9 @@ display: inline-flex;
   
   margin-left:800px;
 }
-
+.quote{
+  margin-left:400px;
+}
 
 .heres-what-our-cust {
   color: #31373D;
@@ -291,6 +303,11 @@ display: inline-flex;
   margin-left: 300px;
   
   
+}
+
+.footer
+{
+  margin-left:300px;
 }
 .loved-by-users-reco-copy-2 {
   color: #31373D;
