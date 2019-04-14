@@ -92,7 +92,7 @@ Lorem Ipsum <br/>has been the industry's standard dummy text<br/> ever since the
 
 
 <div className="footer">
-<p className="loved-by-users-reco-copy-2">Loved by users,<br/> recommended by experts</p>
+<p className="loved-by-users-reco-copy-2">Loved by users,,<br/> recommended by experts</p>
 <p className="lorem-ipsum-is-simple ">Lorem Ipsum is simply dummy text of the<br/> printing and typesetting industry. 
 Lorem Ipsum <br/>has been the industry's standard dummy text <br/>ever since the 1500s.</p>
 <div className="primary1">
